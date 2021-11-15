@@ -180,6 +180,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+}
+
+#buttons1 button{ 
+  cursor: pointer;
 }
 
 .btn1 {
