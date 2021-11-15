@@ -106,15 +106,15 @@
     .middle_banner a:visited{color:#fff;}
     .puzzle_banner{width: 100%; height: 100%; margin:0 auto;  text-align: center;}
     .puzzle_banner img{width: 100%; height: 100%;}
-    .puzzle_1{width: 49%; height: 55%; float: left; background:url(../img/main/puzzle_banner1.jpg); background-size: cover; overflow: hidden; font-size: 16px; margin: 0 0.5% 1% 0; border-radius: 20px;}
+    .puzzle_1{width: 49%; height: 55%; float: left; background:url(../img/main/puzzle_banner1.jpg); background-size: cover; background-size: 100% 100%; overflow: hidden; font-size: 16px; margin: 0 0.5% 1% 0; border-radius: 20px;}
     .puzzle_text1{width: 100%; height: 100%; background: #13377d ; color:#fff; opacity: 0; cursor: pointer; margin: 0 auto; padding: 10% 0; transform: rotateY(-180deg);}
     .puzzle_banner span{color:darkgoldenrod; font-weight:bold; font-size: 20px;}
     .puzzle_1:hover .puzzle_text1{opacity: 0.63; transition: 1.5s;  transform: rotateY(0deg) ;  }
-    .puzzle_2{width: 49%; height: 55%; float: right; background:url(../img/main/puzzle_banner2.jpg); background-size: cover; overflow: hidden; font-size: 16px; margin: 0 0 1% 0.5%; border-radius: 20px;}
+    .puzzle_2{width: 49%; height: 55%; float: right; background:url(../img/main/puzzle_banner2.jpg); background-size: cover; background-size: 100% 100%; overflow: hidden; font-size: 16px; margin: 0 0 1% 0.5%; border-radius: 20px;}
     .puzzle_text2{width: 100%; height: 100%; background: #13377d ; color:#fff; opacity: 0; cursor: pointer; margin: 0% auto; padding: 10% 0; transform: rotateY(-180deg);}
     .puzzle_2:hover .puzzle_text2{opacity: 0.63; transition: 1.5s;  transform: rotateY(0deg) ;  }
     .our{font-size: 36px; color: #fff;}
-    .puzzle_3{width: 100%; height: 45%; float: left; background:url(../img/main/puzzle_banner3.jpg); background-size: cover; overflow: hidden; font-size: 16px; border-radius: 20px;}
+    .puzzle_3{width: 100%; height: 45%; float: left; background:url(../img/main/puzzle_banner3.jpg); background-size: cover; background-size: 100% 100%; overflow: hidden; font-size: 16px; border-radius: 20px;}
     .puzzle_text3{width: 100%; height: 100%; background: #13377d ; color:#fff; opacity: 0; cursor: pointer; margin: 0% auto; padding: 10% 0; transform: rotateX(-180deg);}
     .puzzle_3:hover .puzzle_text3{opacity: 0.63; transition: 1.5s;  transform: rotateX(0deg) ;  }
     .puzzle_text3 .detail_button{padding: 2% 0;}
