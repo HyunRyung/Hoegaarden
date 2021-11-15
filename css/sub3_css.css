@@ -172,37 +172,44 @@
 
 #mid2 {
 	width: 1200px;
-	height: 600px;
-	margin: 200px 0 auto;
+	height: 750px;
+	margin: 150px 0 auto;
 }
 
 #buttons1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+  font-weight: bold;
 }
 
 #buttons1 button{ 
+  background-color: #fff;
+  color:#000;
   cursor: pointer;
-}
-
-.btn1 {
-	background: red;
-	padding: 10px 40px;
-	border: 3px green;
-	border-bottom: 0px;
+  border:3px solid red;
+  border-bottom: none;
 	margin: 0 5px;
 	border-radius: 5px;
+  padding: 10px 40px;
+
 }
 
+#buttons1 button:hover{
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+
 #mainSection1 {
-	width: 900px;
+	width: 930px;
 	height: 425px;
 	border: 3px solid red;
 	border-radius: 5px;
 	position: relative;
-	left: 150px;
+	left: 135px;
 }
 .circle {
 	width: 1200px;
@@ -335,6 +342,8 @@
 }
 
 #b_img {
+  width: 1200px;
+  height: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
